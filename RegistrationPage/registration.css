@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+.opt{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #474e5dd8;
+  text-align: center;
+  padding-top: 50vh;
+}
+.opt button{
+  color: white;
+  background-color: #450264;
+  border: #450264 2px solid;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.opt button:hover{
+  background-color: #ece7ee;
+  color: #450264;
+  border: #450264 2px solid;
+  font-weight: bold;
+}
+.close {
+  position: absolute;
+  right: 6vw;
+  top: 8vh;
+  font-size: 50px;
+  font-weight: bold;
+  color: #490157;
+}
+.close:hover,
+.close:focus {
+  color: #cf18f4;
+  cursor: pointer;
+}
+.main-container{
+  display: none;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  position: relative;
+  height: 660px;
+  margin: 0 9vw;
+  margin-top: 70px;
+  border-radius: 20px;
+  background-color: #f9e3ff;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+.container {
+  position: absolute;
+  top: 0;
+  left: 50%;  
+  font-size: 20px;
+  font-weight: bold;
+  width: 50%;
+  height: 660px;
+  padding: 10px;
+}
+.card #img{
+  opacity: 0.5;
+  width: 50%;
+  height: 660px;
+  border-radius: 20px 0 0 20px;
+}
+input[type=text], select, input[type=password], input[type=email], input[type=tel] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type=submit] {
+  background-color: #450264;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  float: right;
+  margin-top: 2vh;
+  font-size: 17px;
+  border: #450264 2px solid;
+  font-weight: bold;
+}
+input[type=submit]:hover {
+  background-color: white;
+  border: #450264 2px solid;
+  color: #450264;
+  font-weight: bold;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.radio{
+  margin-top: 18px;
+}
+#male, #female{
+  accent-color: rgb(175, 109, 237);
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 950px) {
+  .col-25, .col-75, #regStudent, #regFaculty, #reqAdmin {
+    width: 100%;
+    margin-top: 0;
+  }
+  #regStudent, #regFaculty, #reqAdmin{
+    margin-top: 10px;
+  }
+  .container img{
+    display: none;
+  }
+  .card, .card #img, .container{
+    height: 830px;
+  }
+  .radio{
+    margin: 0;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .img{
+    display: none;
+  }
+  .container{
+    width: 100%;
+    left: 0;
+  }
+}
