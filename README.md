@@ -51,7 +51,7 @@
 - Monitor faculty activity (e.g., empty or copied assessments)
 - Respond to queries from students and faculty
 
-![Deshboard](Screenshots/Admin-Page.png)
+![Deshboard](Screenshots/Admin-page.png)
 ![Faculty profile](Screenshots/Admin-Profile.png)
 
 ### 🦸 **Super Admin Panel**
@@ -61,7 +61,7 @@
 - Manage all assessments and messages
 - Oversee the entire platform operation
 
-![Deshboard](Screenshots/Super Admin-Page.png)
+![Deshboard](Screenshots/Super-Admin-Page.png)
 ![Message page of Super-Admin](Screenshots/Super-Admin-Message-Page.png)
 ![Super Admin Controls](Screenshots/Super-Admin-Controls.png)
 ![Admin Request](Screenshots/Admin-Request.png)
